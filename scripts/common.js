@@ -6,9 +6,7 @@ import {
   loadHeader,
   loadFooter,
 } from './lib-franklin.js';
-import { COOKIE_VALUES, COOKIE_CHECK } from './constants.js';
 
-const { performance, targeting, social } = COOKIE_VALUES;
 let placeholders = null;
 
 export async function getPlaceholders() {
